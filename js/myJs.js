@@ -15,7 +15,7 @@ function firstQuestion(){
     $('.content').hide();
     Swal.fire({
         title: 'Thu à ',
-        text: 'Anh có điều này muốn hỏi em, nhớ phải trả lời thật lòng nhaaa.',
+        text: 'Anh có điều này muốn hỏi em, nhớ phải trả lời thật lòng nha ',
         imageUrl: 'img/cuteCat.jpg',
         imageWidth: 300,
         imageHeight: 300,
@@ -73,7 +73,7 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " Tại vì em thích anh vcl :<< hihi ";
+    var text = " Tại vì em thích anh vcl kkk ";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
@@ -100,8 +100,8 @@ $('#yes').click(function() {
         html: true,
         width: 900,
         padding: '3em',
-        html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Whyyy'>",
-        background: '#fff url("img/iput-bg.jpg")',
+        html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Why????'>",
+        background: '#fff url("img/input-bg.jpeg")',
         backdrop: `
               rgba(0,0,123,0.4)
               url("img/giphy2.gif")
@@ -121,7 +121,7 @@ $('#yes').click(function() {
                 width: 900,
                 confirmButtonText: 'Ok lun kkk',
                 background: '#fff url("img/iput-bg.jpg")',
-                title: 'Anh biết mà ^^ Yêu em 300.000',
+                title: 'Anh biết mà kkk. Yêu em +∞ ',
                 text: "Đùa tí thôi nhưng ráng đợi nhá hehehehehehehehehehe",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {

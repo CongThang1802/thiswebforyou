@@ -1,7 +1,7 @@
 .content {
     position: relative;
     z-index: 3;
-    color: #00FA9A;
+    color: #A80007;
 }
   #no{
     position: absolute;
@@ -10,13 +10,14 @@
     top: 40vh;
     -webkit-transition: all 0.1s ease-out;
   }
-  #yes{
+#yes {
     position: absolute;
     display: inline-block;
-    left: 70%; 
+    left: 70%;
     top: 40vh;
     -webkit-transition: all 0.3s ease-out;
-  }
+   
+}
 #bg{
   position: fixed;
   top: 0;
