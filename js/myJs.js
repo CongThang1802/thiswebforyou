@@ -125,7 +125,7 @@ $('#yes').click(function() {
                 text: "Đùa tí thôi nhưng ráng đợi nhá hehehehehehehehehehe",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
-                    window.location = 'https://www.facebook.com/ilovebossvtt/';
+                    window.location = 'https://m.me/ilovebossvtt';
                   }
             })
         }
